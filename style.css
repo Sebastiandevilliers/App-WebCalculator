@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    
+}
+body{
+    background-color: black;
+}
+
+.main{
+    width: 400px;
+    height: dynamic;
+    padding: 15px;
+    margin: 20px auto;
+    border-radius: 2rem;
+    background-color: white;
+    line-height: 2.5em;
+    font-weight: bolder;
+    display: absolute;
+   
+    }
+
+.main > h2{
+    text-align: center;
+}
+#initial{
+    background-position: right;
+    position: right;
+    width: 110px;
+    
+}
+
+.title{
+    color: gray;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+
+
+#textInput{
+    border: none;
+    box-sizing: 13px;
+    width: 40px;
+    align-items: stretch;
+    font-family: 'Poppins', sans-serif;
+    padding-left: -50px;
+}
+label{
+    width: 180px;
+    clear: left;
+    text-align: right;
+    padding-right: 50px;
+    font-family: 'Poppins', sans-serif;
+    position: relative;
+}
+#Inter{
+    width: 150px;
+    justify-self: start;
+}
+
+#years{
+    align-self: center;
+}
+
+input[type=text] {
+    border: 2px solid red;
+    border-radius: 4px;
+  }
+
+  #amount{
+      padding-right: 90px;
+  }
+  #NoYears{
+      padding-right: 60px;
+  }
+
+ .clear{
+      align-items: flex-end;
+      margin-left: 85%;
+      margin-top: -11%;
+  }
